@@ -8,10 +8,12 @@ import 'package:intl/intl.dart';
 class WeatherDetailsPage extends StatelessWidget {
   final String location;
   final List<Weather> data;
+  final double topPadding;
 
   const WeatherDetailsPage({
     required this.location,
     required this.data,
+    required this.topPadding,
     Key? key,
   }) : super(key: key);
 
@@ -36,7 +38,7 @@ class WeatherDetailsPage extends StatelessWidget {
           child: Column(
             children: [
               // SizedBox(height: MediaQuery.of(context).padding.top),
-              const SizedBox(height: 20),
+              SizedBox(height: topPadding),
               Row(
                 children: [
                   const SizedBox(width: 25),

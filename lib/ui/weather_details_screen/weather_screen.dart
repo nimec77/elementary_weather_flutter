@@ -32,6 +32,7 @@ class WeatherScreen extends ElementaryWidget<WeatherScreenWM> {
             return WeatherDetailsPage(
               data: data!,
               location: wm.locationTitle,
+              topPadding: wm.topPadding,
             );
           },
         ),
