@@ -14,6 +14,9 @@ class SelectAddressScreen extends ElementaryWidget<SelectAddressWM> {
   @override
   Widget build(SelectAddressWM wm) {
     return Scaffold(
+      appBar: AppBar(
+        title: const Text('Weather'),
+      ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [

@@ -1,6 +1,5 @@
 import 'package:elementary_weather_flutter/theme/app_typography.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:flutter_svg/svg.dart';
 
 class ErrorScreen extends StatelessWidget {

@@ -16,6 +16,9 @@ class WeatherScreen extends ElementaryWidget<WeatherScreenWM> {
   @override
   Widget build(WeatherScreenWM wm) {
     return Scaffold(
+      appBar: AppBar(
+        title: Text(wm.locationTitle),
+      ),
       body: Center(
         child: EntityStateNotifierBuilder<List<Weather>?>(
           listenableEntityState: wm.currentWeather,

@@ -4,7 +4,6 @@ import 'package:elementary_weather_flutter/service/model/location.dart';
 import 'package:elementary_weather_flutter/ui/weather_details_screen/weather_screen.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 import '../../app_model.dart';
 import '../../main.dart';
